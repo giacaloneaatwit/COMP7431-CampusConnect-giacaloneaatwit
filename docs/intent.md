@@ -19,3 +19,14 @@ Use approved or synthetic information only. Do not store private student data.
 - Which student questions create the most confusion?
 - Which sources are authoritative?
 - When should the system stop and hand off to a person?
+
+## Next intent: content freshness controls
+
+### New problem
+Approved sources can become stale even when the application still works.
+
+### Proposed outcome
+Record a content owner and review date for every source, and route conflicts to a human.
+
+### Evidence that triggered this change
+See docs/incident.md.
