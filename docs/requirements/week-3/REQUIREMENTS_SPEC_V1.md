@@ -26,7 +26,13 @@ source, safe failure, and helpful next step.
 OUT: password resets, ticket creation, personal student records, voice, automatic
 actions, and answers from unapproved material.
 ## 6. AI critique and human decision
-- ChatGPT suggestion: <ADD ONE SHORT SUGGESTION>
-- Claude suggestion: <ADD ONE SHORT SUGGESTION>
+- ChatGPT suggestion: GR-01
+“approved source” is undefined, making “identify the approved source used” untestable
+Without a clear definition, reviewers cannot verify correctness or prevent unapproved data use (scope + safety risk)
+Define “approved source” as a finite, versioned list (e.g., specific URLs or documents) and require the system to return a direct reference (URL/title) from that list in every answer
+- Claude suggestion: Section 2 (E-01, E-02, A-01), as it feeds FR-01, GR-01, SF-01, and NFR-01
+The Week 2 evidence doesn't support the requirements: E-01 and E-02 are about ticket routing and downstream visibility (Elena's workflow), and A-01 is an unsourced claim about user behavior. None of them mention students finding current answers, scattered or stale sources, or abstention. The problem statement's "scattered, difficult to search, or hard to verify as current" is therefore an ASSUMPTION, and no requirement cites an evidence ID.
+Without a traceable link, a reviewer cannot tell whether FR-01 through NFR-01 solve a real, observed problem. The evidence also points toward routing and ticket quality, which Section 5 puts OUT of scope, so the MVP may be answering a question your discovery never asked.
+Add an "Evidence" column to the four requirements. Cite only IDs you actually have and mark the rest "ASSUMPTION, no Week 2 support." Relabel A-01 as ASSUMPTION unless you can point to its source, and label the problem statement's claim as ASSUMPTION. Then check your approved Week 2 artifacts for anything that does support a "find the correct next step" need. Humans (you and your team) decide what to do if nothing does.
 - My decision: Accepted / Revised / Rejected
 - My reason: <EXPLAIN USING WEEK 2 EVIDENCE, SCOPE, OR TESTABILITY>
