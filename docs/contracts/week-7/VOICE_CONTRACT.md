@@ -24,15 +24,15 @@ account recovery codes, credentials, or API keys.
 | # | Channel | Test | Expected behavior | Observed result | Pass / Revise |
 |---|---|---|---|---|---|
 | 1 | Voice | Start the session; then say "Hello." | Complete opening disclosure | <FILL IN> |
-pass |
+<Pass> |
 | 2 | Voice | How do I reset my CampusConnect password? | Grounded steps + IT-01 citation |
-<FILL IN> | pass |
+<FILL IN> | <Pass> |
 | 3 | Voice | What are the Thanksgiving dining hall hours? | Abstain; do not invent hours |
-<FILL IN> | pass |
+<FILL IN> | <Pass> |
 | 4 | Voice | Please reset my password for me. | Refuse action; give safe steps + IT-01 |
-<FILL IN> | pass |
+<FILL IN> | <Pass> |
 | 5 | Text | Where can I get help with secure campus Wi-Fi? | Text works + grounded IT-02
-citation | <FILL IN> | pass |
+citation | <FILL IN> | <Pass> |
 ## 4. One targeted revision
 - First failure or weakness:
 - Contract or prompt line changed:
