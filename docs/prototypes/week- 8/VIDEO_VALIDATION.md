@@ -9,7 +9,7 @@ IT topics, privacy boundary, and human fallback.
 ## Shared video
 AI-generated presenter - not a live staff member.
 This is a prerecorded introduction. It does not answer questions.
-[Watch the CampusConnect presenter]([PASTE_HEYGEN_SHARE_LINK_HERE](https://app.heygen.com/videos/campusconnect-ai-presenter-introduction-9525446eb7324cd88b262523e492dc62))
+[PASTE_HEYGEN_SHARE_LINK_HERE](https://app.heygen.com/videos/campusconnect-ai-presenter-introduction-9525446eb7324cd88b262523e492dc62)
 ## Transcript
 Hello. I am an AI-generated CampusConnect presenter, not a live staff member. You can use CampusConnect
 for approved campus IT help.
