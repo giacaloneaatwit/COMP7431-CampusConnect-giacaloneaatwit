@@ -8,15 +8,15 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: "24"
       - name: Compile the CampusConnect app
+        working-directory: campusconnect-web
         run: |
-          test -f app.py
-          test -f requirements.txt
-          python -m py_compile app.py
+          npm i
+          npm run build
       - name: Verify release evidence and secret hygiene
         run: |
           test -f docs/testing/week-10/MVP_TEST_RECORD.md
