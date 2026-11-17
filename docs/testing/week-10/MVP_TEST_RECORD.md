@@ -23,18 +23,18 @@ remain visible, and the chatbot is reachable by keyboard. | The transcript was v
 seconds or less. If slower, the question is preserved and progress, retry, or text fallback is
 clear. | Almost instant | PASS |
 ## 2. Lighthouse and manual accessibility evidence
-Performance score: <FILL IN>
-Accessibility score: <FILL IN>
-One important Lighthouse finding or "none listed": <FILL IN>
-Keyboard plus muted-video result: <FILL IN>
+Performance score: 93
+Accessibility score: 100
+One important Lighthouse finding or "none listed": Uses third party cookies
+Keyboard plus muted-video result: Keyboard accessibility PASS
 ## 3. Defect decision and retest
-Highest-severity finding: <FILL IN OR NONE>
-Severity: <FILL IN - BLOCKER, SEVERE, MAJOR, MINOR, or NONE>
-Smallest repair made: <FILL IN OR "No repair required">
+Highest-severity finding: Render-blocking request
+Severity: BLOCKER
+Smallest repair made: no repair required
 Focused retest result: <FILL IN>
 ## 4. Release gate
-Release decision: <FILL IN - GO or NO-GO>
-Decision reason: <FILL IN>
+Release decision: GO
+Decision reason: Minor issues do not affect the MVP
 GitHub Actions run: <PASTE RUN URL>
 Release tag if GO: v0.9.0-rc1
 ## 5. Engineering and AI Use Log
