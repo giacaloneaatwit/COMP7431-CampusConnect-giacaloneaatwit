@@ -31,13 +31,13 @@ Keyboard plus muted-video result: Keyboard accessibility PASS
 Highest-severity finding: Render-blocking request
 Severity: BLOCKER
 Smallest repair made: no repair required
-Focused retest result: <FILL IN>
+Focused retest result: PASS
 ## 4. Release gate
 Release decision: GO
 Decision reason: Minor issues do not affect the MVP
 GitHub Actions run: <PASTE RUN URL>
 Release tag if GO: v0.9.0-rc1
 ## 5. Engineering and AI Use Log
-What I tested myself: <FILL IN>
-What remained human-reviewed rather than automated: <FILL IN>
-Known limitation carried into Week 11 Red Teaming: <FILL IN>
+What I tested myself: keyboard accessibility
+What remained human-reviewed rather than automated: 
+Known limitation carried into Week 11 Red Teaming: 
